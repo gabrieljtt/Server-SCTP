@@ -46,7 +46,6 @@ public class Server {
             ssc.bind(portServer);
 
             System.out.println("Endereço: " + addressServer + ":" + portServer.getPort());
-            System.out.println();
     }
 
     public void receive() throws IOException {
