@@ -50,7 +50,6 @@ public class Server {
 
     public void receive() throws IOException {
         sc = ssc.accept();
-        //if((sc = ssc.accept())!= null){
             while(true) {
                 MessageInfo messageInfo = sc.receive(buffer, null, null);
                 buffer.flip();
